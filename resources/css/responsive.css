@@ -1,0 +1,92 @@
+/* For small laptop  and large screen----------1024px-1200px*/
+@media only screen and (max-width: 1200px) {
+  .hero-img-txt {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+/* For small tab  and small laptop -----------768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .btn-app img {
+    margin-right: 7px;
+  }
+  .phone {
+    width: 50%;
+  }
+  .step-box:last-child {
+    margin-top: 40px;
+  }
+  .work-step:last-of-type {
+    margin-bottom: 30px;
+  }
+  .small-icon {
+    margin-right: 2px;
+  }
+  .city-feature {
+    font-size: 90%;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0;
+  }
+  .plan-price {
+    font-size: 250%;
+  }
+  .form-area {
+    width: 80%;
+  }
+  .footer-nav {
+    width: 120%;
+  }
+}
+/* For small phone  and Small tab----481px to 767px*/
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 40px 0;
+  }
+  .long-copy {
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+  }
+  .col {
+    width: 100%;
+  }
+  h1 {
+    font-size: 160%;
+  }
+  h2 {
+    font-size: 140%;
+    margin-bottom: 35px;
+  }
+  blockquote {
+    margin-bottom: 20px;
+  }
+  cite {
+    margin-top: 2%;
+  }
+  .pricing-section .col {
+    margin: 0 0 5%;
+  }
+  
+}
+/* For small phone------0 t0 480 */
+@media only screen and (max-width: 480px) {
+  
+}
